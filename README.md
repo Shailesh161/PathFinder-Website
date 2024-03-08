@@ -1,1 +1,1 @@
-# PathFinder-Website
+# Path-finder
