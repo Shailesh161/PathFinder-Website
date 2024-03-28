@@ -98,6 +98,7 @@ function resetCanvas() {
     console.log(openSet)
 }
 
+//This function is a constructor for creating Node objects. Each node represents a cell in the grid
 function Node(i, j) {
     this.i = i;
     this.j = j;
@@ -191,6 +192,7 @@ function centerCanvas() {
     screen.position(x, y);
 }
 
+//This function is called once at the beginning and sets up the canvas and calls resetCanvas() to initialize the grid.
 function setup() {
     // making the canvas
     screen = createCanvas(windowWidth - (windowHeight * 0.05), windowHeight - (windowHeight * 0.20));
