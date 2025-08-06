@@ -1,4 +1,4 @@
-# Path-finder website
+# Path-finder website.
 
 
 
